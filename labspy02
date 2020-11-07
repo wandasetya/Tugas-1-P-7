@@ -1,0 +1,12 @@
+#program menentukan bilangan terbesar dari tiga buah bilangan
+
+a= int(input("masukan bilangan pertama :"))
+b= int(input("masukan bilanga kedua :"))
+c= int(input("masukan bilangan ketiga
+
+if(a>b) and (a>c):
+    print("bilangan terbesar adalah :",a,)
+elif (b>c) and (b>a):
+    print("bilangan terbesar adalah :",b,)
+elif (c>a) and (c>b):
+    print("bilangan terbesar adalah :",c,)
